@@ -4,9 +4,8 @@ import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 // import RootReducer from './reducers';
 import Root from './containers/root/Root';
-// import HelloWorld from './components/hello-word/HelloWorld';
 
-const store = createStore(()=>{});
+const store = createStore(() =>{});
 
 class App extends Component
 {
