@@ -1,17 +1,22 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import HelloWorld from './components/HelloWorld/HelloWorld';
+import { createStore } from 'redux';
+import { Provider } from 'react-redux';
+// import RootReducer from './reducers';
+import Root from './containers/root/Root';
+// import HelloWorld from './components/hello-word/HelloWorld';
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      //
-    }
-  }
+const store = createStore(()=>{});
 
-  render() {
-    return <HelloWorld />;
+class App extends Component
+{
+  render()
+  {
+    return (
+      <Provider store={store}>
+        <Root />
+      </Provider>
+    );
   }
 
 }
