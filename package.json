@@ -1,7 +1,7 @@
 {
-  "name": "basic-react-redux-starter",
+  "name": "ism4480-project",
   "version": "1.0.0",
-  "description": "Barebones boilerplate for projects using React and Redux. No bloat, just the bare minimum essentials.",  
+  "description": "Class project for ISM4480 - Spring 2017",
   "scripts": {
     "build": "webpack",
     "start": "webpack-dev-server --config webpack/webpack.hot.config.js",

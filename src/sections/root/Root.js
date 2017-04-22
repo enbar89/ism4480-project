@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import './styles/root.css';
 import HelloWorld from '../../components/hello-word/HelloWorld';
 
 class Root extends Component
@@ -16,7 +17,9 @@ class Root extends Component
   render()
   {
     return (
-      <HelloWorld />
+      <div className={"src-containers-root--container"}>
+        <HelloWorld />
+      </div>
     );
   }
 }

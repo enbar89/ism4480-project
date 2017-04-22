@@ -1,0 +1,6 @@
+.src-containers-root--container {
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    background-color: #999999;
+}
