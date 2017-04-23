@@ -6,41 +6,68 @@ export default class Main extends Component
   render()
   {
     return (
-    <div>
-      <div>This is main</div>
-      <div>This is main</div>
-      <div>This is main</div>
-      <div>This is main</div>
-      <div>This is main</div>
-      <div>This is main</div>
-      <div>This is main</div>
-      <div>This is main</div>
-      <div>This is main</div>
-      <div>This is main</div>
-      <div>This is main</div>
-      <div>This is main</div>
-      <div>This is main</div>
-      <div>This is main</div>
-      <div>This is main</div>
-      <div>This is main</div>
-      <div>This is main</div>
-      <div>This is main</div>
-      <div>This is main</div>
-      <div>This is main</div>
-      <div>This is main</div>
-      <div>This is main</div>
-      <div>This is main</div>
-      <div>This is main</div>
-      <div>This is main</div>
-      <div>This is main</div>
-      <div>This is main</div>
-      <div>This is main</div>
-      <div>This is main</div>
-      <div>This is main</div>
-      <div>This is main</div>
-      <div>This is main</div>
-      <div>This is main</div>
-      <div>This is main</div>
+    <div className="src-sections-main--container">
+
+      <div className="src-sections-main--body">
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is main<br />
+        This is the bottom of main
+      </div>
+
     </div>
     );
   }

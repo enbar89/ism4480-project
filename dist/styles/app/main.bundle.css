@@ -34,8 +34,7 @@
 
 @media all and (max-width: 480px) {
     .src-sections-root--container {
-        /*height: 580px;*/
-        height: calc(100vh - 20px);
+        height: calc(100vh - 3.5rem);
     }
 
     .src-sections-root--flexContainer {
