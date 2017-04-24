@@ -1,3 +1,15 @@
+a:link, a:visited {
+    text-decoration: none;
+    color: #4d4d4d;
+    transition: 250ms;
+}
+
+a:active, a:hover {
+    text-decoration: none;
+    color: #a6a6a6;
+    transition: 250ms;
+}
+
 .src-sections-root--outerContainer {
     display: flex;
     flex-direction: column;

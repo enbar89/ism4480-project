@@ -38,7 +38,7 @@ export default class NavigationMenu extends Component
   {
     const menuItems = [
       { title: "Home", selectedPage: "home" },
-      { title: "Menu Item 5", selectedPage: "5" },
+      { title: "Project Documentation", selectedPage: "projectDocs" },
       { title: "E-Portfolio Links", selectedPage: "ePortfolio" }
     ];
 

@@ -25,26 +25,40 @@ export default class Home extends Component
         <div className="src-components-home--body">
 
           <div className="src-components-home--bodyRow">
-            <div className="src-components-home--bodyRowItem">
-              <i className="fa fa-desktop" />
+            <div className="src-components-home--bodyRowIcon">
+              <i className="fa fa-camera-retro" />
             </div>
-            <div className="src-components-home--bodyRowItem">
+            <div className="src-components-home--bodyRowIcon">
+              <i className="fa fa-tablet" />
+              <i className="fa fa-desktop" />
               <i className="fa fa-mobile" />
             </div>
-            <div className="src-components-home--bodyRowItem">
-              <i className="fa fa-tablet" />
+            <div className="src-components-home--bodyRowIcon">
+              <i className="fa fa-rocket" />
+            </div>
+          </div>
+
+          <div className="src-components-home--bodyRow">
+            <div className="src-components-home--bodyRowHeader">
+              Design
+            </div>
+            <div className="src-components-home--bodyRowHeader">
+              Development
+            </div>
+            <div className="src-components-home--bodyRowHeader">
+              Launch
             </div>
           </div>
 
           <div className="src-components-home--bodyRow">
             <div className="src-components-home--bodyRowItem">
-              Desktop
+              Custom-designed websites that will attract your customers.
             </div>
             <div className="src-components-home--bodyRowItem">
-              Mobile
+              Fully featured development for desktop, tablet, and mobile platforms.
             </div>
             <div className="src-components-home--bodyRowItem">
-              Tablet
+              Professional hosting services and expert support for the future.
             </div>
           </div>
 
