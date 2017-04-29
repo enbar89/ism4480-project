@@ -61,7 +61,7 @@ export default class ProjectDocuments extends Component
             </div>
 
             <div className="src-components-project-documents--bodyRowItem">
-              <a href="files\EricBarrier--GroupProj-Part1-EBusinessStrategy.docx">
+              <a href="files\EricBarrier--GroupProj-Part3-Implementation.docx">
                 <div className="src-components-project-documents--bodyRowIcon">
                   <i className="fa fa-file-text" />
                 </div>

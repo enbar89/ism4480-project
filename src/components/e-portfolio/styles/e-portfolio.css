@@ -31,6 +31,10 @@
     font-size: 1.5rem;
 }
 
+.src-components-e-portfolio--bodyHidden {
+    display: none;
+}
+
 .src-components-e-portfolio--body {
     display: flex;
     flex-direction: column;

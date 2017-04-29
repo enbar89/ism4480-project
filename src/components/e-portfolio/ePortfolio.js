@@ -3,10 +3,40 @@ import './styles/e-portfolio.css';
 
 export default class ePortfolio extends Component
 {
+  constructor()
+  {
+    super(props);
+
+    this.state = { bodyClass: "src-components-e-portfolio--bodyHidden" }
+  }
+
+  componentDidMount()
+  {
+    const { bodyClass }= this.state;
+
+    if(bodyClass === "src-components-e-portfolio--bodyHidden")
+    {
+      this.setState({ bodyClass: "src-components-e-portfolio--body" })
+    }
+  }
+
   render()
   {
+    const { hiddenClass } = this.props;
+
+    let bodyClass;
+
+    if(hiddenClass)
+    {
+      bodyClass = "src-components-e-portfolio--bodyHidden";
+    }
+    else
+    {
+      bodyClass = "src-components-e-portfolio--body";
+    }
+
     return (
-      <div className="src-components-e-portfolio--container">
+      <div className="src-components-e-portfolio--containerHidden">
 
         <div className="src-components-e-portfolio--banner">
 
@@ -22,7 +52,7 @@ export default class ePortfolio extends Component
 
         </div>
 
-        <div className="src-components-e-portfolio--body">
+        <div className={bodyClass}>
 
           <div className="src-components-e-portfolio--bodyRow">
             <div className="src-components-e-portfolio--bodyRowHeader">
